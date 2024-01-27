@@ -1,3 +1,2479 @@
 <html>
-heloo
+<body>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="css/w3.css">
+
+
+<img src="GI_Banner.jpg" width="100%" height="50%"> 
+
+<div class="w3-bar w3-orange w3-card-4">
+
+ <div class="w3-dropdown-hover">
+  <button class="w3-button w3-red">Pyro</button>
+  <div class="w3-dropdown-content w3-bar-block w3-card-4">
+   <button class="w3-bar-item w3-button" onclick="Genshin('Amber')">Amber</button>
+   <button class="w3-bar-item w3-button" onclick="Genshin('Bennet')">Bennet</button>
+   <button class="w3-bar-item w3-button" onclick="Genshin('Chevreuse')">Chevreuse</button>
+   <button class="w3-bar-item w3-button" onclick="Genshin('Dehya')">Dehya</button>
+   <button class="w3-bar-item w3-button" onclick="Genshin('Diluc')">Diluc</button>
+   <button class="w3-bar-item w3-button" onclick="Genshin('HuTao')">Hu Tao</button>
+   <button class="w3-bar-item w3-button" onclick="Genshin('Klee')">Klee</button>
+   <button class="w3-bar-item w3-button" onclick="Genshin('Lyney')">Lyney</button>
+   <button class="w3-bar-item w3-button" onclick="Genshin('Thoma')">Thoma</button>
+   <button class="w3-bar-item w3-button" onclick="Genshin('Xiangling')">Xiangling</button>
+   <button class="w3-bar-item w3-button" onclick="Genshin('Xinyan')">Xinyan</button>
+   <button class="w3-bar-item w3-button" onclick="Genshin('Yanfei')">Yanfei</button>
+   <button class="w3-bar-item w3-button" onclick="Genshin('Yoimiya')">Yoimiya</button>
+  </div>
+ </div>
+ <div class="w3-dropdown-hover">
+  <button class="w3-button w3-blue">Hydro</button>
+  <div class="w3-dropdown-content w3-bar-block w3-card-4">
+   <button class="w3-bar-item w3-button" onclick="Genshin('Barbara')">Barbara</button>
+   <button class="w3-bar-item w3-button" onclick="Genshin('Candace')">Candace</button>
+   <button class="w3-bar-item w3-button" onclick="Genshin('Furina')">Furina</button>
+   <button class="w3-bar-item w3-button" onclick="Genshin('Ayato')">Kamisato Ayato</button>
+   <button class="w3-bar-item w3-button" onclick="Genshin('Mona')">Mona</button>
+   <button class="w3-bar-item w3-button" onclick="Genshin('Neuvillette')">Neuvillette</button>
+   <button class="w3-bar-item w3-button" onclick="Genshin('Nilou')">Nilou</button>
+   <button class="w3-bar-item w3-button" onclick="Genshin('Kokomi')">Sangonomiya Kokomi</button>
+   <button class="w3-bar-item w3-button" onclick="Genshin('Childe')">Tartalia/Childe</button>
+   <button class="w3-bar-item w3-button" onclick="Genshin('Xingqiu')">Xingqiu</button>
+   <button class="w3-bar-item w3-button" onclick="Genshin('Yelan')">Yelan</button>
+  </div>
+ </div>
+ <div class="w3-dropdown-hover">
+  <button class="w3-button w3-cyan">Cryo</button>
+  <div class="w3-dropdown-content w3-bar-block w3-card-4">
+   <button class="w3-bar-item w3-button" onclick="Genshin('Charlotte')">Charlotte</button>
+   <button class="w3-bar-item w3-button" onclick="Genshin('Chongyun')">Chongyun</button>
+   <button class="w3-bar-item w3-button" onclick="Genshin('Diona')">Diona</button>
+   <button class="w3-bar-item w3-button" onclick="Genshin('Eula')">Eula</button>
+   <button class="w3-bar-item w3-button" onclick="Genshin('Freminet')">Freminet</button>
+   <button class="w3-bar-item w3-button" onclick="Genshin('Ganyu')">Ganyu</button>
+   <button class="w3-bar-item w3-button" onclick="Genshin('Kaeya')">Kaeya</button>
+   <button class="w3-bar-item w3-button" onclick="Genshin('Ayaka')">Kamisato Ayaka</button>
+   <button class="w3-bar-item w3-button" onclick="Genshin('Layla')">Layla</button>
+   <button class="w3-bar-item w3-button" onclick="Genshin('Mika')">Mika</button>
+   <button class="w3-bar-item w3-button" onclick="Genshin('Qiqi')">Qiqi</button>
+   <button class="w3-bar-item w3-button" onclick="Genshin('Rosaria')">Rosaria</button>
+   <button class="w3-bar-item w3-button" onclick="Genshin('Shenhe')">Shenhe</button>
+   <button class="w3-bar-item w3-button" onclick="Genshin('Wriothesley')">Wriothesley</button>
+
+  </div>
+ </div>
+ <div class="w3-dropdown-hover">
+  <button class="w3-button w3-purple">Electro</button>
+  <div class="w3-dropdown-content w3-bar-block w3-card-4">
+   <button class="w3-bar-item w3-button" onclick="Genshin('Beidou')">Beidou</button>
+   <button class="w3-bar-item w3-button" onclick="Genshin('Cyno')">Cyno</button>
+   <button class="w3-bar-item w3-button" onclick="Genshin('Dori')">Dori</button>
+   <button class="w3-bar-item w3-button" onclick="Genshin('Fischl')">Fischl</button>
+   <button class="w3-bar-item w3-button" onclick="Genshin('Keqing')">Keqing</button>
+   <button class="w3-bar-item w3-button" onclick="Genshin('KujouSara')">Kujou Sara</button>
+   <button class="w3-bar-item w3-button" onclick="Genshin('KukiShinobu')">Kuki Shinobu</button>
+   <button class="w3-bar-item w3-button" onclick="Genshin('Lisa')">Lisa</button>
+   <button class="w3-bar-item w3-button" onclick="Genshin('RaidenEi')">Raiden Shogun/Ei</button>
+   <button class="w3-bar-item w3-button" onclick="Genshin('Razor')">Razor</button>
+   <button class="w3-bar-item w3-button" onclick="Genshin('YaeMiko')">Yae Miko</button>
+
+  </div>
+ </div>
+ <div class="w3-dropdown-hover">
+  <button class="w3-button w3-Aqua">Anemo</button>
+  <div class="w3-dropdown-content w3-bar-block w3-card-4">
+   <button class="w3-bar-item w3-button" onclick="Genshin('Faruzan')">Faruzan</button>
+   <button class="w3-bar-item w3-button" onclick="Genshin('Jean')">Jean</button>
+   <button class="w3-bar-item w3-button" onclick="Genshin('Kazuha')">Kaedehara Kazuha</button>
+   <button class="w3-bar-item w3-button" onclick="Genshin('Lynette')">Lynette</button>
+   <button class="w3-bar-item w3-button" onclick="Genshin('Sayu')">Sayu</button>
+   <button class="w3-bar-item w3-button" onclick="Genshin('Heizou')">Shikanoin Heizou</button>
+   <button class="w3-bar-item w3-button" onclick="Genshin('Sucrose')">Sucrose</button>
+   <button class="w3-bar-item w3-button" onclick="Genshin('Venti')">Venti/Barbatos</button>
+   <button class="w3-bar-item w3-button" onclick="Genshin('Wanderer')">Wanderer</button>
+   <button class="w3-bar-item w3-button" onclick="Genshin('Xiao')">Xiao</button>
+  </div>
+ </div>
+ <div class="w3-dropdown-hover">
+  <button class="w3-button w3-green">Dendro</button>
+  <div class="w3-dropdown-content w3-bar-block w3-card-4">
+   <button class="w3-bar-item w3-button" onclick="Genshin('Alhaitham')">Alhaitam</button>
+   <button class="w3-bar-item w3-button" onclick="Genshin('Baizhu')">Baizhu</button>
+   <button class="w3-bar-item w3-button" onclick="Genshin('Collei')">Collei</button>
+   <button class="w3-bar-item w3-button" onclick="Genshin('Kaveh')">Kaveh</button>
+   <button class="w3-bar-item w3-button" onclick="Genshin('Kirara')">Kirara</button>
+   <button class="w3-bar-item w3-button" onclick="Genshin('Nahida')">Nahida</button>
+   <button class="w3-bar-item w3-button" onclick="Genshin('Tighnari')">Tighnari</button>
+   <button class="w3-bar-item w3-button" onclick="Genshin('Yaoyao')">Yaoyao</button>
+  </div>
+ </div>
+ <div class="w3-dropdown-hover">
+  <button class="w3-button w3-brown">Geo</button>
+  <div class="w3-dropdown-content w3-bar-block w3-card-4">
+   <button class="w3-bar-item w3-button" onclick="Genshin('Albedo')">Albedo</button>
+   <button class="w3-bar-item w3-button" onclick="Genshin('Itto')">Arataki Itto</button>
+   <button class="w3-bar-item w3-button" onclick="Genshin('Gorou')">Gorou</button>
+   <button class="w3-bar-item w3-button" onclick="Genshin('Navia')">Navia</button>
+   <button class="w3-bar-item w3-button" onclick="Genshin('Ningguang')">Ningguang</button>
+   <button class="w3-bar-item w3-button" onclick="Genshin('Noelle')">Noelle</button>   
+   <button class="w3-bar-item w3-button" onclick="Genshin('YunJin')">Yun Jin</button>
+   <button class="w3-bar-item w3-button" onclick="Genshin('Zhongli')">Zhongli/Morax</button>
+   
+  </div>
+ </div>
+ <div class="w3-dropdown-hover">
+  <button class="w3-button w3-black">Profile</button>
+  <div class="w3-dropdown-content w3-bar-block w3-card-4">
+   <button class="w3-bar-item w3-button" onclick="Genshin('Rizki')">Profile Saya</button>
+   <button class="w3-bar-item w3-button" onclick="Genshin('Genshin')">About Genshin</button>
+  </div>
+ </div>
+</div>
+
+
+<div id="Amber" class="w3-container Karakter w3-gray w3-display-container" style="display:none">
+  <div class="w3-panel w3-orange w3-round-xlarge">
+  <center>
+  <h2>Amber</h2>
+  </center>
+  </div>
+  <div class="w3-row">
+    <div class="w3-col m6">
+      <div class="w3-card-4" style="width:100%;height:100%">
+        <div class="w3-container w3-panel w3-card-4 w3-red">
+          <img src="Amber_Card.jpg" width="100%" height="100%"> 
+        </div>  
+      </div>
+    </div>
+
+    <div class="w3-col m6 w3-display-right">
+      <div class="w3-card-4" style="height:100%">
+        <div class="w3-container w3-panel w3-card-4 w3-orange">
+          <center>
+            <h2>Descriptions</h2>
+          </center>
+          <div class="w3-card-4 w3-red" style="width:100%;height:100%">
+            <p>Amber is joyful and carefree about Mondstadt. Her dream is to become a wind gliding champion and she is very adamant in her knightly duties. An all around joyous and comforting spirit who would do anything to protect her friends and the citizens of Mondstadt.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div id="Bennet" class="w3-container Karakter w3-gray w3-display-container" style="display:none">
+  <div class="w3-panel w3-orange w3-round-xlarge">
+  <center>
+  <h2>Bennet</h2>
+  </center>
+  </div>
+  <div class="w3-row">
+    <div class="w3-col m6">
+      <div class="w3-card-4" style="width:100%;height:100%">
+        <div class="w3-container w3-panel w3-card-4 w3-red">
+          <img src="Bennett_Card.jpg" width="100%" height="100%"> 
+        </div>  
+      </div>
+    </div>
+
+    <div class="w3-col m6 w3-display-right">
+      <div class="w3-card-4" style="height:100%">
+        <div class="w3-container w3-panel w3-card-4 w3-orange">
+          <center>
+            <h2>Descriptions</h2>
+          </center>
+          <div class="w3-card-4 w3-red" style="width:100%;height:100%">
+			<p>He's appeared near the adventure guild only hang out Bennett is a 16-17-year-old boy who wants to be adventure guild, He only has white hair, pale skin, and green eye. He wears a rusty google on top of the head, a scarf on his left shoulder that seems to get injured when he got bad luck, a cream sleeveless jacket, blue cuffed navy shorts, leather belt, a yellow bandanna tied a right arm, and blue shoes with a golden symbol.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div id="Chevreuse" class="w3-container Karakter w3-gray w3-display-container" style="display:none">
+  <div class="w3-panel w3-orange w3-round-xlarge">
+  <center>
+  <h2>Chevreuse</h2>
+  </center>
+  </div>
+  <div class="w3-row">
+    <div class="w3-col m6">
+      <div class="w3-card-4" style="width:100%;height:100%">
+        <div class="w3-container w3-panel w3-card-4 w3-red">
+          <img src="Chevreuse_Card.jpg" width="100%" height="100%"> 
+        </div>  
+      </div>
+    </div>
+
+    <div class="w3-col m6 w3-display-right">
+      <div class="w3-card-4" style="height:100%">
+        <div class="w3-container w3-panel w3-card-4 w3-orange">
+          <center>
+            <h2>Descriptions</h2>
+          </center>
+          <div class="w3-card-4 w3-red" style="width:100%;height:100%">
+            <p>AA musketeer and the hardworking captain of the Special Security and Surveillance Patrol, a special law enforcement branch in Fontaine.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div id="Dehya" class="w3-container Karakter w3-gray w3-display-container" style="display:none">
+  <div class="w3-panel w3-orange w3-round-xlarge">
+  <center>
+  <h2>Dehya</h2>
+  </center>
+  </div>
+  <div class="w3-row">
+    <div class="w3-col m6">
+      <div class="w3-card-4" style="width:100%;height:100%">
+        <div class="w3-container w3-panel w3-card-4 w3-red">
+          <img src="Dehya_Card.jpg" width="100%" height="100%"> 
+        </div>  
+      </div>
+    </div>
+
+    <div class="w3-col m6 w3-display-right">
+      <div class="w3-card-4" style="height:100%">
+        <div class="w3-container w3-panel w3-card-4 w3-orange">
+          <center>
+            <h2>Descriptions</h2>
+          </center>
+          <div class="w3-card-4 w3-red" style="width:100%;height:100%">
+            <p>A fierce and strong warrior, the "Flame-Mane" Dehya is considered a legend among the Eremites for her might, passion, and conscientiousness. Unwilling to be trapped by the conditions that force most from the desert to stay there, she aspires to deliver hope back to the sands that she considers her home.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div id="Diluc" class="w3-container Karakter w3-gray w3-display-container" style="display:none">
+  <div class="w3-panel w3-orange w3-round-xlarge">
+  <center>
+  <h2>Diluc</h2>
+  </center>
+  </div>
+  <div class="w3-row">
+    <div class="w3-col m6">
+      <div class="w3-card-4" style="width:100%;height:100%">
+        <div class="w3-container w3-panel w3-card-4 w3-red">
+          <img src="Diluc_Card.jpg" width="100%" height="100%"> 
+        </div>  
+      </div>
+    </div>
+
+    <div class="w3-col m6 w3-display-right">
+      <div class="w3-card-4" style="height:100%">
+        <div class="w3-container w3-panel w3-card-4 w3-orange">
+          <center>
+            <h2>Descriptions</h2>
+          </center>
+          <div class="w3-card-4 w3-red" style="width:100%;height:100%">
+            <p>A solitary businessman and vintner who was formerly the Cavalry Captain of the Knights of Favonius. He and Kaeya grew up as adopted brothers, but are no longer on friendly terms. He secretly operates as a vigilante nicknamed "the Darknight Hero".</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div id="HuTao" class="w3-container Karakter w3-gray w3-display-container" style="display:none">
+  <div class="w3-panel w3-orange w3-round-xlarge">
+  <center>
+  <h2>Hu Tao</h2>
+  </center>
+  </div>
+  <div class="w3-row">
+    <div class="w3-col m6">
+      <div class="w3-card-4" style="width:100%;height:100%">
+        <div class="w3-container w3-panel w3-card-4 w3-red">
+          <img src="Hu_Tao_Card.jpg" width="100%" height="100%"> 
+        </div>  
+      </div>
+    </div>
+
+    <div class="w3-col m6 w3-display-right">
+      <div class="w3-card-4" style="height:100%">
+        <div class="w3-container w3-panel w3-card-4 w3-orange">
+          <center>
+            <h2>Descriptions</h2>
+          </center>
+          <div class="w3-card-4 w3-red" style="width:100%;height:100%">
+            <p>The 77th Director of Wangsheng Funeral Parlor, who is carefree and lively. She never misses an opportunity to sell coffins to people, and enjoys playing pranks on others.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div id="Klee" class="w3-container Karakter w3-gray w3-display-container" style="display:none">
+  <div class="w3-panel w3-orange w3-round-xlarge">
+  <center>
+  <h2>Klee</h2>
+  </center>
+  </div>
+  <div class="w3-row">
+    <div class="w3-col m6">
+      <div class="w3-card-4" style="width:100%;height:100%">
+        <div class="w3-container w3-panel w3-card-4 w3-red">
+          <img src="Klee_Card.jpg" width="100%" height="100%"> 
+        </div>  
+      </div>
+    </div>
+
+    <div class="w3-col m6 w3-display-right">
+      <div class="w3-card-4" style="height:100%">
+        <div class="w3-container w3-panel w3-card-4 w3-orange">
+          <center>
+            <h2>Descriptions</h2>
+          </center>
+          <div class="w3-card-4 w3-red" style="width:100%;height:100%">
+            <p>The Spark Knight of the Knights of Favonius and the daughter of Alice, a powerful sorceress. Her obsession with explosives at her young age has caused her to often be in solitary confinement.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div id="Lyney" class="w3-container Karakter w3-gray w3-display-container" style="display:none">
+  <div class="w3-panel w3-orange w3-round-xlarge">
+  <center>
+  <h2>Lyney</h2>
+  </center>
+  </div>
+  <div class="w3-row">
+    <div class="w3-col m6">
+      <div class="w3-card-4" style="width:100%;height:100%">
+        <div class="w3-container w3-panel w3-card-4 w3-red">
+          <img src="Lyney_Card.jpg" width="100%" height="100%"> 
+        </div>  
+      </div>
+    </div>
+
+    <div class="w3-col m6 w3-display-right">
+      <div class="w3-card-4" style="height:100%">
+        <div class="w3-container w3-panel w3-card-4 w3-orange">
+          <center>
+            <h2>Descriptions</h2>
+          </center>
+          <div class="w3-card-4 w3-red" style="width:100%;height:100%">
+            <p>Lynette's brother, who is a famous magician in Fontaine. He is outgoing and spirited, in contrast to his siblings. Like his sister, he belongs to the House of the Hearth.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div id="Thoma" class="w3-container Karakter w3-gray w3-display-container" style="display:none">
+  <div class="w3-panel w3-orange w3-round-xlarge">
+  <center>
+  <h2>Thoma</h2>
+  </center>
+  </div>
+  <div class="w3-row">
+    <div class="w3-col m6">
+      <div class="w3-card-4" style="width:100%;height:100%">
+        <div class="w3-container w3-panel w3-card-4 w3-red">
+          <img src="Thoma_Card.jpg" width="100%" height="100%"> 
+        </div>  
+      </div>
+    </div>
+
+    <div class="w3-col m6 w3-display-right">
+      <div class="w3-card-4" style="height:100%">
+        <div class="w3-container w3-panel w3-card-4 w3-orange">
+          <center>
+            <h2>Descriptions</h2>
+          </center>
+          <div class="w3-card-4 w3-red" style="width:100%;height:100%">
+            <p>The chief housekeeper of the Kamisato Clan, who originates from Mondstadt.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div id="Xiangling" class="w3-container Karakter w3-gray w3-display-container" style="display:none">
+  <div class="w3-panel w3-orange w3-round-xlarge">
+  <center>
+  <h2>Xiangling</h2>
+  </center>
+  </div>
+  <div class="w3-row">
+    <div class="w3-col m6">
+      <div class="w3-card-4" style="width:100%;height:100%">
+        <div class="w3-container w3-panel w3-card-4 w3-red">
+          <img src="Xiangling_Card.jpg" width="100%" height="100%"> 
+        </div>  
+      </div>
+    </div>
+
+    <div class="w3-col m6 w3-display-right">
+      <div class="w3-card-4" style="height:100%">
+        <div class="w3-container w3-panel w3-card-4 w3-orange">
+          <center>
+            <h2>Descriptions</h2>
+          </center>
+          <div class="w3-card-4 w3-red" style="width:100%;height:100%">
+            <p>Xiangling's appearance in the bush grabs the traveler planning about cooking that she is a unique cooker. She has short dark, indigo hair behind looping, and light skin. She wears a clipping on the right, orange necklace with behind with orange bow and front with small orange bow, yellow and brown leotard with a red ribbon and including back, behind with the big bell, brown glove but different side one side is orange wrist and other is tightness white glove, golden belts with Guoba’s snack face, bandage in the right knee, and brown gold boot with the red string.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div id="Xinyan" class="w3-container Karakter w3-gray w3-display-container" style="display:none">
+  <div class="w3-panel w3-orange w3-round-xlarge">
+  <center>
+  <h2>Xinyan</h2>
+  </center>
+  </div>
+  <div class="w3-row">
+    <div class="w3-col m6">
+      <div class="w3-card-4" style="width:100%;height:100%">
+        <div class="w3-container w3-panel w3-card-4 w3-red">
+          <img src="Xinyan_Card.jpg" width="100%" height="100%"> 
+        </div>  
+      </div>
+    </div>
+
+    <div class="w3-col m6 w3-display-right">
+      <div class="w3-card-4" style="height:100%">
+        <div class="w3-container w3-panel w3-card-4 w3-orange">
+          <center>
+            <h2>Descriptions</h2>
+          </center>
+          <div class="w3-card-4 w3-red" style="width:100%;height:100%">
+            <p>Xinyan is a teenager with dark skin, light yellow-amber eyes, dark brown bun hair with the front of a few locks light red-orange strips but using the headbands with spikes. She wearing the outfit, Arden Soul as a black brown tank top with a white and red vest with a red, back big sleeve covers long white sleeves, ten black wring, a white short, red and black ribbon around the back, two sleeves, and her right leg, a netted sock on her left leg and a white sock on her right leg, and black long sandals with spikes on it. Xinyan uses a red and black bag back on her back and a square guitar like ruan with an ax on the bottom.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div id="Yanfei" class="w3-container Karakter w3-gray w3-display-container" style="display:none">
+  <div class="w3-panel w3-orange w3-round-xlarge">
+  <center>
+  <h2>Yanfei</h2>
+  </center>
+  </div>
+  <div class="w3-row">
+    <div class="w3-col m6">
+      <div class="w3-card-4" style="width:100%;height:100%">
+        <div class="w3-container w3-panel w3-card-4 w3-red">
+          <img src="Yanfei_Card.jpg" width="100%" height="100%"> 
+        </div>  
+      </div>
+    </div>
+
+    <div class="w3-col m6 w3-display-right">
+      <div class="w3-card-4" style="height:100%">
+        <div class="w3-container w3-panel w3-card-4 w3-orange">
+          <center>
+            <h2>Descriptions</h2>
+          </center>
+          <div class="w3-card-4 w3-red" style="width:100%;height:100%">
+            <p>A half-xiezhi who is a highly skilled legal adviser and one of the few illuminated beasts not under contract to the Geo Archon.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div id="Yoimiya" class="w3-container Karakter w3-gray w3-display-container" style="display:none">
+  <div class="w3-panel w3-orange w3-round-xlarge">
+  <center>
+  <h2>Yoimiya</h2>
+  </center>
+  </div>
+  <div class="w3-row">
+    <div class="w3-col m6">
+      <div class="w3-card-4" style="width:100%;height:100%">
+        <div class="w3-container w3-panel w3-card-4 w3-red">
+          <img src="Yoimiya_Card.jpg" width="100%" height="100%"> 
+        </div>  
+      </div>
+    </div>
+
+    <div class="w3-col m6 w3-display-right">
+      <div class="w3-card-4" style="height:100%">
+        <div class="w3-container w3-panel w3-card-4 w3-orange">
+          <center>
+            <h2>Descriptions</h2>
+          </center>
+          <div class="w3-card-4 w3-red" style="width:100%;height:100%">
+            <p>The lively owner of Naganohara Fireworks, who the people of Inazuma have nicknamed the "Queen of the Summer Festival".</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div id="Barbara" class="w3-container Karakter w3-gray w3-display-container" style="display:none">
+  <div class="w3-panel w3-orange w3-round-xlarge">
+  <center>
+  <h2>Barbara</h2>
+  </center>
+  </div>
+  <div class="w3-row">
+    <div class="w3-col m6">
+      <div class="w3-card-4" style="width:100%;height:100%">
+        <div class="w3-container w3-panel w3-card-4 w3-blue">
+          <img src="Barbara_Card.jpg" width="100%" height="100%"> 
+        </div>  
+      </div>
+    </div>
+
+    <div class="w3-col m6 w3-display-right">
+      <div class="w3-card-4" style="height:100%">
+        <div class="w3-container w3-panel w3-card-4 w3-orange">
+          <center>
+            <h2>Descriptions</h2>
+          </center>
+          <div class="w3-card-4 w3-blue" style="width:100%;height:100%">
+            <p>The Deaconess of the Church of Favonius and the younger sister of Jean, who is also a famous idol.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div id="Candace" class="w3-container Karakter w3-gray w3-display-container" style="display:none">
+  <div class="w3-panel w3-orange w3-round-xlarge">
+  <center>
+  <h2>Candace</h2>
+  </center>
+  </div>
+  <div class="w3-row">
+    <div class="w3-col m6">
+      <div class="w3-card-4" style="width:100%;height:100%">
+        <div class="w3-container w3-panel w3-card-4 w3-blue">
+          <img src="Candace_Card.jpg" width="100%" height="100%"> 
+        </div>  
+      </div>
+    </div>
+
+    <div class="w3-col m6 w3-display-right">
+      <div class="w3-card-4" style="height:100%">
+        <div class="w3-container w3-panel w3-card-4 w3-orange">
+          <center>
+            <h2>Descriptions</h2>
+          </center>
+          <div class="w3-card-4 w3-blue" style="width:100%;height:100%">
+            <p>The scion of Al-Ahmar and the Guardian of Aaru Village, Candace is kind to travelers who visit, but is unforgiving to those who violate the village's rules.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div id="Furina" class="w3-container Karakter w3-gray w3-display-container" style="display:none">
+  <div class="w3-panel w3-orange w3-round-xlarge">
+  <center>
+  <h2>Furina</h2>
+  </center>
+  </div>
+  <div class="w3-row">
+    <div class="w3-col m6">
+      <div class="w3-card-4" style="width:100%;height:100%">
+        <div class="w3-container w3-panel w3-card-4 w3-blue">
+          <img src="Furina_Card.jpg" width="100%" height="100%"> 
+        </div>  
+      </div>
+    </div>
+
+    <div class="w3-col m6 w3-display-right">
+      <div class="w3-card-4" style="height:100%">
+        <div class="w3-container w3-panel w3-card-4 w3-orange">
+          <center>
+            <h2>Descriptions</h2>
+          </center>
+          <div class="w3-card-4 w3-blue" style="width:100%;height:100%">
+            <p>A celebrity in Fontaine who has a childlike temper, but can also be caring at times.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div id="Ayato" class="w3-container Karakter w3-gray w3-display-container" style="display:none">
+  <div class="w3-panel w3-orange w3-round-xlarge">
+  <center>
+  <h2>Kamisato Ayato</h2>
+  </center>
+  </div>
+  <div class="w3-row">
+    <div class="w3-col m6">
+      <div class="w3-card-4" style="width:100%;height:100%">
+        <div class="w3-container w3-panel w3-card-4 w3-blue">
+          <img src="Kamisato_Ayato_Card.jpg" width="100%" height="100%"> 
+        </div>  
+      </div>
+    </div>
+
+    <div class="w3-col m6 w3-display-right">
+      <div class="w3-card-4" style="height:100%">
+        <div class="w3-container w3-panel w3-card-4 w3-orange">
+          <center>
+            <h2>Descriptions</h2>
+          </center>
+          <div class="w3-card-4 w3-blue" style="width:100%;height:100%">
+            <p>The head of the Yashiro Commission and Ayaka's older brother.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div id="Mona" class="w3-container Karakter w3-gray w3-display-container" style="display:none">
+  <div class="w3-panel w3-orange w3-round-xlarge">
+  <center>
+  <h2>Mona</h2>
+  </center>
+  </div>
+  <div class="w3-row">
+    <div class="w3-col m6">
+      <div class="w3-card-4" style="width:100%;height:100%">
+        <div class="w3-container w3-panel w3-card-4 w3-blue">
+          <img src="Mona_Card.jpg" width="100%" height="100%"> 
+        </div>  
+      </div>
+    </div>
+
+    <div class="w3-col m6 w3-display-right">
+      <div class="w3-card-4" style="height:100%">
+        <div class="w3-container w3-panel w3-card-4 w3-orange">
+          <center>
+            <h2>Descriptions</h2>
+          </center>
+          <div class="w3-card-4 w3-blue" style="width:100%;height:100%">
+            <p>A famous astrologist who often finds herself strapped for money.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div id="Neuvillette" class="w3-container Karakter w3-gray w3-display-container" style="display:none">
+  <div class="w3-panel w3-orange w3-round-xlarge">
+  <center>
+  <h2>Neuvillette</h2>
+  </center>
+  </div>
+  <div class="w3-row">
+    <div class="w3-col m6">
+      <div class="w3-card-4" style="width:100%;height:100%">
+        <div class="w3-container w3-panel w3-card-4 w3-blue">
+          <img src="Neuvillette_Card.jpg" width="100%" height="100%"> 
+        </div>  
+      </div>
+    </div>
+
+    <div class="w3-col m6 w3-display-right">
+      <div class="w3-card-4" style="height:100%">
+        <div class="w3-container w3-panel w3-card-4 w3-orange">
+          <center>
+            <h2>Descriptions</h2>
+          </center>
+          <div class="w3-card-4 w3-blue" style="width:100%;height:100%">
+            <p>The imposing Chief Justice of the Court of Fontaine. He is also the reincarnation of the Hydro Sovereign, the Dragon of Water, one of the rulers of Teyvat's ancient dragon race.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div id="Nilou" class="w3-container Karakter w3-gray w3-display-container" style="display:none">
+  <div class="w3-panel w3-orange w3-round-xlarge">
+  <center>
+  <h2>Nilou</h2>
+  </center>
+  </div>
+  <div class="w3-row">
+    <div class="w3-col m6">
+      <div class="w3-card-4" style="width:100%;height:100%">
+        <div class="w3-container w3-panel w3-card-4 w3-blue">
+          <img src="Nilou_Card.jpg" width="100%" height="100%"> 
+        </div>  
+      </div>
+    </div>
+
+    <div class="w3-col m6 w3-display-right">
+      <div class="w3-card-4" style="height:100%">
+        <div class="w3-container w3-panel w3-card-4 w3-orange">
+          <center>
+            <h2>Descriptions</h2>
+          </center>
+          <div class="w3-card-4 w3-blue" style="width:100%;height:100%">
+            <p>A gentle and talented dancer, and the star of the Zubayr Theater.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div id="Kokomi" class="w3-container Karakter w3-gray w3-display-container" style="display:none">
+  <div class="w3-panel w3-orange w3-round-xlarge">
+  <center>
+  <h2>Sangonomiya Kokomi</h2>
+  </center>
+  </div>
+  <div class="w3-row">
+    <div class="w3-col m6">
+      <div class="w3-card-4" style="width:100%;height:100%">
+        <div class="w3-container w3-panel w3-card-4 w3-blue">
+          <img src="Sangonomiya_Kokomi_Card.jpg" width="100%" height="100%"> 
+        </div>  
+      </div>
+    </div>
+
+    <div class="w3-col m6 w3-display-right">
+      <div class="w3-card-4" style="height:100%">
+        <div class="w3-container w3-panel w3-card-4 w3-orange">
+          <center>
+            <h2>Descriptions</h2>
+          </center>
+          <div class="w3-card-4 w3-blue" style="width:100%;height:100%">
+            <p>The leader of the Watatsumi Army and the Divine Priestess of Watatsumi Island.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div id="Childe" class="w3-container Karakter w3-gray w3-display-container" style="display:none">
+  <div class="w3-panel w3-orange w3-round-xlarge">
+  <center>
+  <h2>Tartalia/Childe</h2>
+  </center>
+  </div>
+  <div class="w3-row">
+    <div class="w3-col m6">
+      <div class="w3-card-4" style="width:100%;height:100%">
+        <div class="w3-container w3-panel w3-card-4 w3-blue">
+          <img src="Tartaglia_Card.jpg" width="100%" height="100%"> 
+        </div>  
+      </div>
+    </div>
+
+    <div class="w3-col m6 w3-display-right">
+      <div class="w3-card-4" style="height:100%">
+        <div class="w3-container w3-panel w3-card-4 w3-orange">
+          <center>
+            <h2>Descriptions</h2>
+          </center>
+          <div class="w3-card-4 w3-blue" style="width:100%;height:100%">
+            <p>The Eleventh of the Fatui Harbingers, who is the youngest and lowest-ranking among them. He enjoys fighting powerful opponents.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div id="Xingqiu" class="w3-container Karakter w3-gray w3-display-container" style="display:none">
+  <div class="w3-panel w3-orange w3-round-xlarge">
+  <center>
+  <h2>Xingqiu</h2>
+  </center>
+  </div>
+  <div class="w3-row">
+    <div class="w3-col m6">
+      <div class="w3-card-4" style="width:100%;height:100%">
+        <div class="w3-container w3-panel w3-card-4 w3-blue">
+          <img src="Xingqiu_Card.jpg" width="100%" height="100%"> 
+        </div>  
+      </div>
+    </div>
+
+    <div class="w3-col m6 w3-display-right">
+      <div class="w3-card-4" style="height:100%">
+        <div class="w3-container w3-panel w3-card-4 w3-orange">
+          <center>
+            <h2>Descriptions</h2>
+          </center>
+          <div class="w3-card-4 w3-blue" style="width:100%;height:100%">
+            <p>The second son to the head of the Feiyun Commerce Guild and a practitioner of the Guhua martial arts.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div id="Yelan" class="w3-container Karakter w3-gray w3-display-container" style="display:none">
+  <div class="w3-panel w3-orange w3-round-xlarge">
+  <center>
+  <h2>Yelan</h2>
+  </center>
+  </div>
+  <div class="w3-row">
+    <div class="w3-col m6">
+      <div class="w3-card-4" style="width:100%;height:100%">
+        <div class="w3-container w3-panel w3-card-4 w3-blue">
+          <img src="Yelan_Card.jpg" width="100%" height="100%"> 
+        </div>  
+      </div>
+    </div>
+
+    <div class="w3-col m6 w3-display-right">
+      <div class="w3-card-4" style="height:100%">
+        <div class="w3-container w3-panel w3-card-4 w3-orange">
+          <center>
+            <h2>Descriptions</h2>
+          </center>
+          <div class="w3-card-4 w3-blue" style="width:100%;height:100%">
+            <p>A mysterious woman operating as an intelligence agent for Ningguang.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div id="Charlotte" class="w3-container Karakter w3-gray w3-display-container" style="display:none">
+  <div class="w3-panel w3-orange w3-round-xlarge">
+  <center>
+  <h2>Charlotte</h2>
+  </center>
+  </div>
+  <div class="w3-row">
+    <div class="w3-col m6">
+      <div class="w3-card-4" style="width:100%;height:100%">
+        <div class="w3-container w3-panel w3-card-4 w3-cyan">
+          <img src="Charlotte_Card.jpg" width="100%" height="100%"> 
+        </div>  
+      </div>
+    </div>
+
+    <div class="w3-col m6 w3-display-right">
+      <div class="w3-card-4" style="height:100%">
+        <div class="w3-container w3-panel w3-card-4 w3-orange">
+          <center>
+            <h2>Descriptions</h2>
+          </center>
+          <div class="w3-card-4 w3-cyan" style="width:100%;height:100%">
+            <p>A reporter for Fontaine's famous newspaper, The Steambird.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div id="Chongyun" class="w3-container Karakter w3-gray w3-display-container" style="display:none">
+  <div class="w3-panel w3-orange w3-round-xlarge">
+  <center>
+  <h2>Chongyun</h2>
+  </center>
+  </div>
+  <div class="w3-row">
+    <div class="w3-col m6">
+      <div class="w3-card-4" style="width:100%;height:100%">
+        <div class="w3-container w3-panel w3-card-4 w3-cyan">
+          <img src="Chongyun_Card.jpg" width="100%" height="100%"> 
+        </div>  
+      </div>
+    </div>
+
+    <div class="w3-col m6 w3-display-right">
+      <div class="w3-card-4" style="height:100%">
+        <div class="w3-container w3-panel w3-card-4 w3-orange">
+          <center>
+            <h2>Descriptions</h2>
+          </center>
+          <div class="w3-card-4 w3-cyan" style="width:100%;height:100%">
+            <p>An exorcist with a pure-yang spirit able to drive away evil spirits.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div id="Diona" class="w3-container Karakter w3-gray w3-display-container" style="display:none">
+  <div class="w3-panel w3-orange w3-round-xlarge">
+  <center>
+  <h2>Diona</h2>
+  </center>
+  </div>
+  <div class="w3-row">
+    <div class="w3-col m6">
+      <div class="w3-card-4" style="width:100%;height:100%">
+        <div class="w3-container w3-panel w3-card-4 w3-cyan">
+          <img src="Diona_Card.jpg" width="100%" height="100%"> 
+        </div>  
+      </div>
+    </div>
+
+    <div class="w3-col m6 w3-display-right">
+      <div class="w3-card-4" style="height:100%">
+        <div class="w3-container w3-panel w3-card-4 w3-orange">
+          <center>
+            <h2>Descriptions</h2>
+          </center>
+          <div class="w3-card-4 w3-cyan" style="width:100%;height:100%">
+            <p>An alcohol-hating bartender who works at the Cat's Tail and is a descendant of the Kätzlein bloodline.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div id="Eula" class="w3-container Karakter w3-gray w3-display-container" style="display:none">
+  <div class="w3-panel w3-orange w3-round-xlarge">
+  <center>
+  <h2>Eula</h2>
+  </center>
+  </div>
+  <div class="w3-row">
+    <div class="w3-col m6">
+      <div class="w3-card-4" style="width:100%;height:100%">
+        <div class="w3-container w3-panel w3-card-4 w3-cyan">
+          <img src="Eula_Card.jpg" width="100%" height="100%"> 
+        </div>  
+      </div>
+    </div>
+
+    <div class="w3-col m6 w3-display-right">
+      <div class="w3-card-4" style="height:100%">
+        <div class="w3-container w3-panel w3-card-4 w3-orange">
+          <center>
+            <h2>Descriptions</h2>
+          </center>
+          <div class="w3-card-4 w3-cyan" style="width:100%;height:100%">
+            <p>A descendant of the Lawrence Clan, whose tyrannical rule of Mondstadt eventually resulted in its overthrow and exile. She currently works for the Knights of Favonius as the Captain of its Reconnaissance Company.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div id="Freminet" class="w3-container Karakter w3-gray w3-display-container" style="display:none">
+  <div class="w3-panel w3-orange w3-round-xlarge">
+  <center>
+  <h2>Freminet</h2>
+  </center>
+  </div>
+  <div class="w3-row">
+    <div class="w3-col m6">
+      <div class="w3-card-4" style="width:100%;height:100%">
+        <div class="w3-container w3-panel w3-card-4 w3-cyan">
+          <img src="Freminet_Card.jpg" width="100%" height="100%"> 
+        </div>  
+      </div>
+    </div>
+
+    <div class="w3-col m6 w3-display-right">
+      <div class="w3-card-4" style="height:100%">
+        <div class="w3-container w3-panel w3-card-4 w3-orange">
+          <center>
+            <h2>Descriptions</h2>
+          </center>
+          <div class="w3-card-4 w3-cyan" style="width:100%;height:100%">
+            <p>A shy diver who is well known in Fontaine. He is Lyney and Lynette's adoptive younger brother.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div id="Ganyu" class="w3-container Karakter w3-gray w3-display-container" style="display:none">
+  <div class="w3-panel w3-orange w3-round-xlarge">
+  <center>
+  <h2>Ganyu</h2>
+  </center>
+  </div>
+  <div class="w3-row">
+    <div class="w3-col m6">
+      <div class="w3-card-4" style="width:100%;height:100%">
+        <div class="w3-container w3-panel w3-card-4 w3-cyan">
+          <img src="Ganyu_Card.jpg" width="100%" height="100%"> 
+        </div>  
+      </div>
+    </div>
+
+    <div class="w3-col m6 w3-display-right">
+      <div class="w3-card-4" style="height:100%">
+        <div class="w3-container w3-panel w3-card-4 w3-orange">
+          <center>
+            <h2>Descriptions</h2>
+          </center>
+          <div class="w3-card-4 w3-cyan" style="width:100%;height:100%">
+            <p>The half-qilin secretary of the Liyue Qixing. She is also an adeptus, a species of illuminated beasts native to Liyue, and is under contract to the Geo Archon.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div id="Kaeya" class="w3-container Karakter w3-gray w3-display-container" style="display:none">
+  <div class="w3-panel w3-orange w3-round-xlarge">
+  <center>
+  <h2>Kaeya</h2>
+  </center>
+  </div>
+  <div class="w3-row">
+    <div class="w3-col m6">
+      <div class="w3-card-4" style="width:100%;height:100%">
+        <div class="w3-container w3-panel w3-card-4 w3-cyan">
+          <img src="Kaeya_Card.jpg" width="100%" height="100%"> 
+        </div>  
+      </div>
+    </div>
+
+    <div class="w3-col m6 w3-display-right">
+      <div class="w3-card-4" style="height:100%">
+        <div class="w3-container w3-panel w3-card-4 w3-orange">
+          <center>
+            <h2>Descriptions</h2>
+          </center>
+          <div class="w3-card-4 w3-cyan" style="width:100%;height:100%">
+            <p>The Cavalry Captain of the Knights of Favonius and Diluc's adopted brother. Kaeya is the second character that players obtain in the game. Kaeya originally hails from the mysterious nation of Khaenri’ah and serves as a sleeper agent for one of their ancient plots.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div id="Ayaka" class="w3-container Karakter w3-gray w3-display-container" style="display:none">
+  <div class="w3-panel w3-orange w3-round-xlarge">
+  <center>
+  <h2>Kamisato Ayaka</h2>
+  </center>
+  </div>
+  <div class="w3-row">
+    <div class="w3-col m6">
+      <div class="w3-card-4" style="width:100%;height:100%">
+        <div class="w3-container w3-panel w3-card-4 w3-cyan">
+          <img src="Kamisato_Ayaka_Card.jpg" width="100%" height="100%"> 
+        </div>  
+      </div>
+    </div>
+
+    <div class="w3-col m6 w3-display-right">
+      <div class="w3-card-4" style="height:100%">
+        <div class="w3-container w3-panel w3-card-4 w3-orange">
+          <center>
+            <h2>Descriptions</h2>
+          </center>
+          <div class="w3-card-4 w3-cyan" style="width:100%;height:100%">
+            <p>The daughter of the Yashiro Commission's Kamisato Clan and Ayato's younger sister.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div id="Layla" class="w3-container Karakter w3-gray w3-display-container" style="display:none">
+  <div class="w3-panel w3-orange w3-round-xlarge">
+  <center>
+  <h2>Layla</h2>
+  </center>
+  </div>
+  <div class="w3-row">
+    <div class="w3-col m6">
+      <div class="w3-card-4" style="width:100%;height:100%">
+        <div class="w3-container w3-panel w3-card-4 w3-cyan">
+          <img src="Layla_Card.jpg" width="100%" height="100%"> 
+        </div>  
+      </div>
+    </div>
+
+    <div class="w3-col m6 w3-display-right">
+      <div class="w3-card-4" style="height:100%">
+        <div class="w3-container w3-panel w3-card-4 w3-orange">
+          <center>
+            <h2>Descriptions</h2>
+          </center>
+          <div class="w3-card-4 w3-cyan" style="width:100%;height:100%">
+            <p>A theoretical astrology student at the Sumeru Akademiya who suffers from chronic sleep deprivation.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div id="Mika" class="w3-container Karakter w3-gray w3-display-container" style="display:none">
+  <div class="w3-panel w3-orange w3-round-xlarge">
+  <center>
+  <h2>Mika</h2>
+  </center>
+  </div>
+  <div class="w3-row">
+    <div class="w3-col m6">
+      <div class="w3-card-4" style="width:100%;height:100%">
+        <div class="w3-container w3-panel w3-card-4 w3-cyan">
+          <img src="Mika_Card.jpg" width="100%" height="100%"> 
+        </div>  
+      </div>
+    </div>
+
+    <div class="w3-col m6 w3-display-right">
+      <div class="w3-card-4" style="height:100%">
+        <div class="w3-container w3-panel w3-card-4 w3-orange">
+          <center>
+            <h2>Descriptions</h2>
+          </center>
+          <div class="w3-card-4 w3-cyan" style="width:100%;height:100%">
+            <p>A mapmaker for the Knights of Favonius and a member of its Reconnaissance Company.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div id="Qiqi" class="w3-container Karakter w3-gray w3-display-container" style="display:none">
+  <div class="w3-panel w3-orange w3-round-xlarge">
+  <center>
+  <h2>Qiqi</h2>
+  </center>
+  </div>
+  <div class="w3-row">
+    <div class="w3-col m6">
+      <div class="w3-card-4" style="width:100%;height:100%">
+        <div class="w3-container w3-panel w3-card-4 w3-cyan">
+          <img src="Qiqi_Card.jpg" width="100%" height="100%"> 
+        </div>  
+      </div>
+    </div>
+
+    <div class="w3-col m6 w3-display-right">
+      <div class="w3-card-4" style="height:100%">
+        <div class="w3-container w3-panel w3-card-4 w3-orange">
+          <center>
+            <h2>Descriptions</h2>
+          </center>
+          <div class="w3-card-4 w3-cyan" style="width:100%;height:100%">
+            <p>A jiangshi herb gatherer working for the Bubu Pharmacy who the adepti resurrected.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div id="Rosaria" class="w3-container Karakter w3-gray w3-display-container" style="display:none">
+  <div class="w3-panel w3-orange w3-round-xlarge">
+  <center>
+  <h2>Rosaria</h2>
+  </center>
+  </div>
+  <div class="w3-row">
+    <div class="w3-col m6">
+      <div class="w3-card-4" style="width:100%;height:100%">
+        <div class="w3-container w3-panel w3-card-4 w3-cyan">
+          <img src="Rosaria_Card.jpg" width="100%" height="100%"> 
+        </div>  
+      </div>
+    </div>
+
+    <div class="w3-col m6 w3-display-right">
+      <div class="w3-card-4" style="height:100%">
+        <div class="w3-container w3-panel w3-card-4 w3-orange">
+          <center>
+            <h2>Descriptions</h2>
+          </center>
+          <div class="w3-card-4 w3-cyan" style="width:100%;height:100%">
+            <p>A sister in the Church of Favonius who rarely participates in church activities and protects Mondstadt from the shadows.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div id="Shenhe" class="w3-container Karakter w3-gray w3-display-container" style="display:none">
+  <div class="w3-panel w3-orange w3-round-xlarge">
+  <center>
+  <h2>Shenhe</h2>
+  </center>
+  </div>
+  <div class="w3-row">
+    <div class="w3-col m6">
+      <div class="w3-card-4" style="width:100%;height:100%">
+        <div class="w3-container w3-panel w3-card-4 w3-cyan">
+          <img src="Shenhe_Card.jpg" width="100%" height="100%"> 
+        </div>  
+      </div>
+    </div>
+
+    <div class="w3-col m6 w3-display-right">
+      <div class="w3-card-4" style="height:100%">
+        <div class="w3-container w3-panel w3-card-4 w3-orange">
+          <center>
+            <h2>Descriptions</h2>
+          </center>
+          <div class="w3-card-4 w3-cyan" style="width:100%;height:100%">
+            <p>A cursed human woman who grew up as a disciple of the adepti and is an aunt of Chongyun.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div id="Wriothesley" class="w3-container Karakter w3-gray w3-display-container" style="display:none">
+  <div class="w3-panel w3-orange w3-round-xlarge">
+  <center>
+  <h2>Wriothesley</h2>
+  </center>
+  </div>
+  <div class="w3-row">
+    <div class="w3-col m6">
+      <div class="w3-card-4" style="width:100%;height:100%">
+        <div class="w3-container w3-panel w3-card-4 w3-cyan">
+          <img src="Wriothesley_Card.jpg" width="100%" height="100%"> 
+        </div>  
+      </div>
+    </div>
+
+    <div class="w3-col m6 w3-display-right">
+      <div class="w3-card-4" style="height:100%">
+        <div class="w3-container w3-panel w3-card-4 w3-orange">
+          <center>
+            <h2>Descriptions</h2>
+          </center>
+          <div class="w3-card-4 w3-cyan" style="width:100%;height:100%">
+            <p>The Administrator of the Fortress of Meropide, an underwater autonomous stronghold that serves as Fontaine's de facto prison. He often goes by the nickname "Duke."</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div id="Beidou" class="w3-container Karakter w3-gray w3-display-container" style="display:none">
+  <div class="w3-panel w3-orange w3-round-xlarge">
+  <center>
+  <h2>Beidou</h2>
+  </center>
+  </div>
+  <div class="w3-row">
+    <div class="w3-col m6">
+      <div class="w3-card-4" style="width:100%;height:100%">
+        <div class="w3-container w3-panel w3-card-4 w3-purple">
+          <img src="Beidou_Card.jpg" width="100%" height="100%"> 
+        </div>  
+      </div>
+    </div>
+
+    <div class="w3-col m6 w3-display-right">
+      <div class="w3-card-4" style="height:100%">
+        <div class="w3-container w3-panel w3-card-4 w3-orange">
+          <center>
+            <h2>Descriptions</h2>
+          </center>
+          <div class="w3-card-4 w3-purple" style="width:100%;height:100%">
+            <p>The Captain of the Crux, an armed fleet famous for their daring adventures.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div id="Cyno" class="w3-container Karakter w3-gray w3-display-container" style="display:none">
+  <div class="w3-panel w3-orange w3-round-xlarge">
+  <center>
+  <h2>Cyno</h2>
+  </center>
+  </div>
+  <div class="w3-row">
+    <div class="w3-col m6">
+      <div class="w3-card-4" style="width:100%;height:100%">
+        <div class="w3-container w3-panel w3-card-4 w3-purple">
+          <img src="Cyno_Card.jpg" width="100%" height="100%"> 
+        </div>  
+      </div>
+    </div>
+
+    <div class="w3-col m6 w3-display-right">
+      <div class="w3-card-4" style="height:100%">
+        <div class="w3-container w3-panel w3-card-4 w3-orange">
+          <center>
+            <h2>Descriptions</h2>
+          </center>
+          <div class="w3-card-4 w3-purple" style="width:100%;height:100%">
+            <p>The intimidating General Mahamatra of the Matra, a group of disciplinary officers who work for the Akademiya.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div id="Dori" class="w3-container Karakter w3-gray w3-display-container" style="display:none">
+  <div class="w3-panel w3-orange w3-round-xlarge">
+  <center>
+  <h2>Dori</h2>
+  </center>
+  </div>
+  <div class="w3-row">
+    <div class="w3-col m6">
+      <div class="w3-card-4" style="width:100%;height:100%">
+        <div class="w3-container w3-panel w3-card-4 w3-purple">
+          <img src="Dori_Card.jpg" width="100%" height="100%"> 
+        </div>  
+      </div>
+    </div>
+
+    <div class="w3-col m6 w3-display-right">
+      <div class="w3-card-4" style="height:100%">
+        <div class="w3-container w3-panel w3-card-4 w3-orange">
+          <center>
+            <h2>Descriptions</h2>
+          </center>
+          <div class="w3-card-4 w3-purple" style="width:100%;height:100%">
+            <p>An enterprising and clever merchant who is obsessed with money.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div id="Fischl" class="w3-container Karakter w3-gray w3-display-container" style="display:none">
+  <div class="w3-panel w3-orange w3-round-xlarge">
+  <center>
+  <h2>Fischl</h2>
+  </center>
+  </div>
+  <div class="w3-row">
+    <div class="w3-col m6">
+      <div class="w3-card-4" style="width:100%;height:100%">
+        <div class="w3-container w3-panel w3-card-4 w3-purple">
+          <img src="Fischl_Card.jpg" width="100%" height="100%"> 
+        </div>  
+      </div>
+    </div>
+
+    <div class="w3-col m6 w3-display-right">
+      <div class="w3-card-4" style="height:100%">
+        <div class="w3-container w3-panel w3-card-4 w3-orange">
+          <center>
+            <h2>Descriptions</h2>
+          </center>
+          <div class="w3-card-4 w3-purple" style="width:100%;height:100%">
+            <p>An eccentric investigator for the Adventurers' Guild who claims to be a princess from another world. She is based on the chūnibyō trope.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div id="Keqing" class="w3-container Karakter w3-gray w3-display-container" style="display:none">
+  <div class="w3-panel w3-orange w3-round-xlarge">
+  <center>
+  <h2>Keqing</h2>
+  </center>
+  </div>
+  <div class="w3-row">
+    <div class="w3-col m6">
+      <div class="w3-card-4" style="width:100%;height:100%">
+        <div class="w3-container w3-panel w3-card-4 w3-purple">
+          <img src="Keqing_Card.jpg" width="100%" height="100%"> 
+        </div>  
+      </div>
+    </div>
+
+    <div class="w3-col m6 w3-display-right">
+      <div class="w3-card-4" style="height:100%">
+        <div class="w3-container w3-panel w3-card-4 w3-orange">
+          <center>
+            <h2>Descriptions</h2>
+          </center>
+          <div class="w3-card-4 w3-purple" style="width:100%;height:100%">
+            <p>A member of the Liyue Qixing, the governing body of Liyue. Some consider her odd due to her lack of devotion to the Archons.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div id="KujouSara" class="w3-container Karakter w3-gray w3-display-container" style="display:none">
+  <div class="w3-panel w3-orange w3-round-xlarge">
+  <center>
+  <h2>Kujou Sara</h2>
+  </center>
+  </div>
+  <div class="w3-row">
+    <div class="w3-col m6">
+      <div class="w3-card-4" style="width:100%;height:100%">
+        <div class="w3-container w3-panel w3-card-4 w3-purple">
+          <img src="Kujou_Sara_Card.jpg" width="100%" height="100%"> 
+        </div>  
+      </div>
+    </div>
+
+    <div class="w3-col m6 w3-display-right">
+      <div class="w3-card-4" style="height:100%">
+        <div class="w3-container w3-panel w3-card-4 w3-orange">
+          <center>
+            <h2>Descriptions</h2>
+          </center>
+          <div class="w3-card-4 w3-purple" style="width:100%;height:100%">
+            <p>A tengu who is a war general and adopted daughter of the Kujou Clan, a clan that serves the Shogun and helps execute her policies.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div id="KukiShinobu" class="w3-container Karakter w3-gray w3-display-container" style="display:none">
+  <div class="w3-panel w3-orange w3-round-xlarge">
+  <center>
+  <h2>Kuki Shinobu</h2>
+  </center>
+  </div>
+  <div class="w3-row">
+    <div class="w3-col m6">
+      <div class="w3-card-4" style="width:100%;height:100%">
+        <div class="w3-container w3-panel w3-card-4 w3-purple">
+          <img src="Kuki_Shinobu_Card.jpg" width="100%" height="100%"> 
+        </div>  
+      </div>
+    </div>
+
+    <div class="w3-col m6 w3-display-right">
+      <div class="w3-card-4" style="height:100%">
+        <div class="w3-container w3-panel w3-card-4 w3-orange">
+          <center>
+            <h2>Descriptions</h2>
+          </center>
+          <div class="w3-card-4 w3-purple" style="width:100%;height:100%">
+            <p>The deputy leader of the Arataki Gang, who takes it upon herself to keep them out of trouble.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div id="Lisa" class="w3-container Karakter w3-gray w3-display-container" style="display:none">
+  <div class="w3-panel w3-orange w3-round-xlarge">
+  <center>
+  <h2>Lisa</h2>
+  </center>
+  </div>
+  <div class="w3-row">
+    <div class="w3-col m6">
+      <div class="w3-card-4" style="width:100%;height:100%">
+        <div class="w3-container w3-panel w3-card-4 w3-purple">
+          <img src="Lisa_Card.jpg" width="100%" height="100%"> 
+        </div>  
+      </div>
+    </div>
+
+    <div class="w3-col m6 w3-display-right">
+      <div class="w3-card-4" style="height:100%">
+        <div class="w3-container w3-panel w3-card-4 w3-orange">
+          <center>
+            <h2>Descriptions</h2>
+          </center>
+          <div class="w3-card-4 w3-purple" style="width:100%;height:100%">
+            <p>The head librarian of the Knights of Favonius and a former student of the Sumeru Akademiya. She is the third character that players can obtain in the game.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div id="RaidenEi" class="w3-container Karakter w3-gray w3-display-container" style="display:none">
+  <div class="w3-panel w3-orange w3-round-xlarge">
+  <center>
+  <h2>Raiden Ei/Shogun</h2>
+  </center>
+  </div>
+  <div class="w3-row">
+    <div class="w3-col m6">
+      <div class="w3-card-4" style="width:100%;height:100%">
+        <div class="w3-container w3-panel w3-card-4 w3-purple">
+          <img src="Raiden_Shogun_Card.jpg" width="100%" height="100%"> 
+        </div>  
+      </div>
+    </div>
+
+    <div class="w3-col m6 w3-display-right">
+      <div class="w3-card-4" style="height:100%">
+        <div class="w3-container w3-panel w3-card-4 w3-orange">
+          <center>
+            <h2>Descriptions</h2>
+          </center>
+          <div class="w3-card-4 w3-purple" style="width:100%;height:100%">
+            <p>A bionic puppet serving as the vessel of the Electro Archon, Raiden Ei, as well as the current shogun of Inazuma.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div id="Razor" class="w3-container Karakter w3-gray w3-display-container" style="display:none">
+  <div class="w3-panel w3-orange w3-round-xlarge">
+  <center>
+  <h2>Razor</h2>
+  </center>
+  </div>
+  <div class="w3-row">
+    <div class="w3-col m6">
+      <div class="w3-card-4" style="width:100%;height:100%">
+        <div class="w3-container w3-panel w3-card-4 w3-purple">
+          <img src="Razor_Card.jpg" width="100%" height="100%"> 
+        </div>  
+      </div>
+    </div>
+
+    <div class="w3-col m6 w3-display-right">
+      <div class="w3-card-4" style="height:100%">
+        <div class="w3-container w3-panel w3-card-4 w3-orange">
+          <center>
+            <h2>Descriptions</h2>
+          </center>
+          <div class="w3-card-4 w3-purple" style="width:100%;height:100%">
+            <p>A mysterious boy who was raised by wolves in Wolvendom.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div id="YaeMiko" class="w3-container Karakter w3-gray w3-display-container" style="display:none">
+  <div class="w3-panel w3-orange w3-round-xlarge">
+  <center>
+  <h2>Yae Miko</h2>
+  </center>
+  </div>
+  <div class="w3-row">
+    <div class="w3-col m6">
+      <div class="w3-card-4" style="width:100%;height:100%">
+        <div class="w3-container w3-panel w3-card-4 w3-purple">
+          <img src="Yae_Miko_Card.jpg" width="100%" height="100%"> 
+        </div>  
+      </div>
+    </div>
+
+    <div class="w3-col m6 w3-display-right">
+      <div class="w3-card-4" style="height:100%">
+        <div class="w3-container w3-panel w3-card-4 w3-orange">
+          <center>
+            <h2>Descriptions</h2>
+          </center>
+          <div class="w3-card-4 w3-purple" style="width:100%;height:100%">
+            <p>A clever kitsune and the owner of the Yae Publishing House. She is also the head shrine maiden of the Grand Narukami shrine and an old friend of Raiden Ei.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div id="Faruzan" class="w3-container Karakter w3-gray w3-display-container" style="display:none">
+  <div class="w3-panel w3-orange w3-round-xlarge">
+  <center>
+  <h2>Faruzan</h2>
+  </center>
+  </div>
+  <div class="w3-row">
+    <div class="w3-col m6">
+      <div class="w3-card-4" style="width:100%;height:100%">
+        <div class="w3-container w3-panel w3-card-4 w3-Aqua">
+          <img src="Faruzan_Card.jpg" width="100%" height="100%"> 
+        </div>  
+      </div>
+    </div>
+
+    <div class="w3-col m6 w3-display-right">
+      <div class="w3-card-4" style="height:100%">
+        <div class="w3-container w3-panel w3-card-4 w3-orange">
+          <center>
+            <h2>Descriptions</h2>
+          </center>
+          <div class="w3-card-4 w3-Aqua" style="width:100%;height:100%">
+            <p>An Akademiya professor who has recently returned to the institution after being trapped in ancient ruins for a century.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div id="Jean" class="w3-container Karakter w3-gray w3-display-container" style="display:none">
+  <div class="w3-panel w3-orange w3-round-xlarge">
+  <center>
+  <h2>Jean</h2>
+  </center>
+  </div>
+  <div class="w3-row">
+    <div class="w3-col m6">
+      <div class="w3-card-4" style="width:100%;height:100%">
+        <div class="w3-container w3-panel w3-card-4 w3-Aqua">
+          <img src="Jean_Card.jpg" width="100%" height="100%"> 
+        </div>  
+      </div>
+    </div>
+
+    <div class="w3-col m6 w3-display-right">
+      <div class="w3-card-4" style="height:100%">
+        <div class="w3-container w3-panel w3-card-4 w3-orange">
+          <center>
+            <h2>Descriptions</h2>
+          </center>
+          <div class="w3-card-4 w3-Aqua" style="width:100%;height:100%">
+            <p>The Acting Grand Master of the Knights of Favonius and Barbara's older sister.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div id="Kazuha" class="w3-container Karakter w3-gray w3-display-container" style="display:none">
+  <div class="w3-panel w3-orange w3-round-xlarge">
+  <center>
+  <h2>Kaedehara Kazuha</h2>
+  </center>
+  </div>
+  <div class="w3-row">
+    <div class="w3-col m6">
+      <div class="w3-card-4" style="width:100%;height:100%">
+        <div class="w3-container w3-panel w3-card-4 w3-Aqua">
+          <img src="Kaedehara_Kazuha_Card.jpg" width="100%" height="100%"> 
+        </div>  
+      </div>
+    </div>
+
+    <div class="w3-col m6 w3-display-right">
+      <div class="w3-card-4" style="height:100%">
+        <div class="w3-container w3-panel w3-card-4 w3-orange">
+          <center>
+            <h2>Descriptions</h2>
+          </center>
+          <div class="w3-card-4 w3-Aqua" style="width:100%;height:100%">
+            <p>A ronin and poet who is a temporary member of Beidou's crew.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div id="Lynette" class="w3-container Karakter w3-gray w3-display-container" style="display:none">
+  <div class="w3-panel w3-orange w3-round-xlarge">
+  <center>
+  <h2>Lynette</h2>
+  </center>
+  </div>
+  <div class="w3-row">
+    <div class="w3-col m6">
+      <div class="w3-card-4" style="width:100%;height:100%">
+        <div class="w3-container w3-panel w3-card-4 w3-Aqua">
+          <img src="Lynette_Card.jpg" width="100%" height="100%"> 
+        </div>  
+      </div>
+    </div>
+
+    <div class="w3-col m6 w3-display-right">
+      <div class="w3-card-4" style="height:100%">
+        <div class="w3-container w3-panel w3-card-4 w3-orange">
+          <center>
+            <h2>Descriptions</h2>
+          </center>
+          <div class="w3-card-4 w3-Aqua" style="width:100%;height:100%">
+            <p>An introverted catgirl who is Lyney's sister and assistant. Like him, she belongs to the House of the Hearth, an orphanage the Fatui run.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div id="Sayu" class="w3-container Karakter w3-gray w3-display-container" style="display:none">
+  <div class="w3-panel w3-orange w3-round-xlarge">
+  <center>
+  <h2>Sayu</h2>
+  </center>
+  </div>
+  <div class="w3-row">
+    <div class="w3-col m6">
+      <div class="w3-card-4" style="width:100%;height:100%">
+        <div class="w3-container w3-panel w3-card-4 w3-Aqua">
+          <img src="Sayu_Card.jpg" width="100%" height="100%"> 
+        </div>  
+      </div>
+    </div>
+
+    <div class="w3-col m6 w3-display-right">
+      <div class="w3-card-4" style="height:100%">
+        <div class="w3-container w3-panel w3-card-4 w3-orange">
+          <center>
+            <h2>Descriptions</h2>
+          </center>
+          <div class="w3-card-4 w3-Aqua" style="width:100%;height:100%">
+            <p>A mujina ninja who is a member of the Shuumatsuban, an organization the Yashiro Commission secretly runs. She believes that sleeping will make her grow taller.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div id="Heizou" class="w3-container Karakter w3-gray w3-display-container" style="display:none">
+  <div class="w3-panel w3-orange w3-round-xlarge">
+  <center>
+  <h2>Shikanoin Heizou</h2>
+  </center>
+  </div>
+  <div class="w3-row">
+    <div class="w3-col m6">
+      <div class="w3-card-4" style="width:100%;height:100%">
+        <div class="w3-container w3-panel w3-card-4 w3-Aqua">
+          <img src="Shikanoin_Heizou_Card.jpg" width="100%" height="100%"> 
+        </div>  
+      </div>
+    </div>
+
+    <div class="w3-col m6 w3-display-right">
+      <div class="w3-card-4" style="height:100%">
+        <div class="w3-container w3-panel w3-card-4 w3-orange">
+          <center>
+            <h2>Descriptions</h2>
+          </center>
+          <div class="w3-card-4 w3-Aqua" style="width:100%;height:100%">
+            <p>A detective associated with the Tenryou Commission.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div id="Sucrose" class="w3-container Karakter w3-gray w3-display-container" style="display:none">
+  <div class="w3-panel w3-orange w3-round-xlarge">
+  <center>
+  <h2>Sucrose</h2>
+  </center>
+  </div>
+  <div class="w3-row">
+    <div class="w3-col m6">
+      <div class="w3-card-4" style="width:100%;height:100%">
+        <div class="w3-container w3-panel w3-card-4 w3-Aqua">
+          <img src="Sucrose_Card.jpg" width="100%" height="100%"> 
+        </div>  
+      </div>
+    </div>
+
+    <div class="w3-col m6 w3-display-right">
+      <div class="w3-card-4" style="height:100%">
+        <div class="w3-container w3-panel w3-card-4 w3-orange">
+          <center>
+            <h2>Descriptions</h2>
+          </center>
+          <div class="w3-card-4 w3-Aqua" style="width:100%;height:100%">
+            <p>A shy alchemist and Albedo's assistant. She wants to use alchemy to transform living beings.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div id="Venti" class="w3-container Karakter w3-gray w3-display-container" style="display:none">
+  <div class="w3-panel w3-orange w3-round-xlarge">
+  <center>
+  <h2>Venti/Barbatos</h2>
+  </center>
+  </div>
+  <div class="w3-row">
+    <div class="w3-col m6">
+      <div class="w3-card-4" style="width:100%;height:100%">
+        <div class="w3-container w3-panel w3-card-4 w3-Aqua">
+          <img src="Venti_Card.jpg" width="100%" height="100%"> 
+        </div>  
+      </div>
+    </div>
+
+    <div class="w3-col m6 w3-display-right">
+      <div class="w3-card-4" style="height:100%">
+        <div class="w3-container w3-panel w3-card-4 w3-orange">
+          <center>
+            <h2>Descriptions</h2>
+          </center>
+          <div class="w3-card-4 w3-Aqua" style="width:100%;height:100%">
+            <p>A carefree bard fond of drinking, and the human vessel of the Anemo Archon, Barbatos.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div id="Wanderer" class="w3-container Karakter w3-gray w3-display-container" style="display:none">
+  <div class="w3-panel w3-orange w3-round-xlarge">
+  <center>
+  <h2>Wanderer</h2>
+  </center>
+  </div>
+  <div class="w3-row">
+    <div class="w3-col m6">
+      <div class="w3-card-4" style="width:100%;height:100%">
+        <div class="w3-container w3-panel w3-card-4 w3-Aqua">
+          <img src="Wanderer_Card.jpg" width="100%" height="100%"> 
+        </div>  
+      </div>
+    </div>
+
+    <div class="w3-col m6 w3-display-right">
+      <div class="w3-card-4" style="height:100%">
+        <div class="w3-container w3-panel w3-card-4 w3-orange">
+          <center>
+            <h2>Descriptions</h2>
+          </center>
+          <div class="w3-card-4 w3-Aqua" style="width:100%;height:100%">
+            <p>The former Sixth Fatui Harbinger, Scaramouche, who Raiden Ei originally created as a prototype for her mortal vessel before she abandoned him. Players can rename the Wanderer after completion of a certain quest.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div id="Xiao" class="w3-container Karakter w3-gray w3-display-container" style="display:none">
+  <div class="w3-panel w3-orange w3-round-xlarge">
+  <center>
+  <h2>Xiao</h2>
+  </center>
+  </div>
+  <div class="w3-row">
+    <div class="w3-col m6">
+      <div class="w3-card-4" style="width:100%;height:100%">
+        <div class="w3-container w3-panel w3-card-4 w3-Aqua">
+          <img src="Xiao_Card.jpg" width="100%" height="100%"> 
+        </div>  
+      </div>
+    </div>
+
+    <div class="w3-col m6 w3-display-right">
+      <div class="w3-card-4" style="height:100%">
+        <div class="w3-container w3-panel w3-card-4 w3-orange">
+          <center>
+            <h2>Descriptions</h2>
+          </center>
+          <div class="w3-card-4 w3-Aqua" style="width:100%;height:100%">
+            <p>The sole remaining member of the Yaksha, a specialised group of adepti the Geo Archon tasked with protecting Liyue from evil gods and spirits.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div id="Alhaitham" class="w3-container Karakter w3-gray w3-display-container" style="display:none">
+  <div class="w3-panel w3-orange w3-round-xlarge">
+  <center>
+  <h2>Alhaitham</h2>
+  </center>
+  </div>
+  <div class="w3-row">
+    <div class="w3-col m6">
+      <div class="w3-card-4" style="width:100%;height:100%">
+        <div class="w3-container w3-panel w3-card-4 w3-green">
+          <img src="Alhaitham_Card.jpg" width="100%" height="100%"> 
+        </div>  
+      </div>
+    </div>
+
+    <div class="w3-col m6 w3-display-right">
+      <div class="w3-card-4" style="height:100%">
+        <div class="w3-container w3-panel w3-card-4 w3-orange">
+          <center>
+            <h2>Descriptions</h2>
+          </center>
+          <div class="w3-card-4 w3-green" style="width:100%;height:100%">
+            <p>The aloof Scribe of the Sumeru Akademiya, who is responsible for documenting their findings.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div id="Baizhu" class="w3-container Karakter w3-gray w3-display-container" style="display:none">
+  <div class="w3-panel w3-orange w3-round-xlarge">
+  <center>
+  <h2>Baizhu</h2>
+  </center>
+  </div>
+  <div class="w3-row">
+    <div class="w3-col m6">
+      <div class="w3-card-4" style="width:100%;height:100%">
+        <div class="w3-container w3-panel w3-card-4 w3-green">
+          <img src="Baizhu_Card.jpg" width="100%" height="100%"> 
+        </div>  
+      </div>
+    </div>
+
+    <div class="w3-col m6 w3-display-right">
+      <div class="w3-card-4" style="height:100%">
+        <div class="w3-container w3-panel w3-card-4 w3-orange">
+          <center>
+            <h2>Descriptions</h2>
+          </center>
+          <div class="w3-card-4 w3-green" style="width:100%;height:100%">
+            <p>The owner of the Bubu Pharmacy and guardian of the jiangshi Qiqi.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div id="Collei" class="w3-container Karakter w3-gray w3-display-container" style="display:none">
+  <div class="w3-panel w3-orange w3-round-xlarge">
+  <center>
+  <h2>Collei</h2>
+  </center>
+  </div>
+  <div class="w3-row">
+    <div class="w3-col m6">
+      <div class="w3-card-4" style="width:100%;height:100%">
+        <div class="w3-container w3-panel w3-card-4 w3-green">
+          <img src="Collei_Card.jpg" width="100%" height="100%"> 
+        </div>  
+      </div>
+    </div>
+
+    <div class="w3-col m6 w3-display-right">
+      <div class="w3-card-4" style="height:100%">
+        <div class="w3-container w3-panel w3-card-4 w3-orange">
+          <center>
+            <h2>Descriptions</h2>
+          </center>
+          <div class="w3-card-4 w3-green" style="width:100%;height:100%">
+            <p>An Avidya Forest Ranger trainee under Tighnari's mentorship and a close friend of Amber. She is one of the main characters of the manga, which details her traumatic past.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div id="Kaveh" class="w3-container Karakter w3-gray w3-display-container" style="display:none">
+  <div class="w3-panel w3-orange w3-round-xlarge">
+  <center>
+  <h2>Kaveh</h2>
+  </center>
+  </div>
+  <div class="w3-row">
+    <div class="w3-col m6">
+      <div class="w3-card-4" style="width:100%;height:100%">
+        <div class="w3-container w3-panel w3-card-4 w3-green">
+          <img src="Kaveh_Card.jpg" width="100%" height="100%"> 
+        </div>  
+      </div>
+    </div>
+
+    <div class="w3-col m6 w3-display-right">
+      <div class="w3-card-4" style="height:100%">
+        <div class="w3-container w3-panel w3-card-4 w3-orange">
+          <center>
+            <h2>Descriptions</h2>
+          </center>
+          <div class="w3-card-4 w3-green" style="width:100%;height:100%">
+            <p>An esteemed architect whose projects have bankrupt him. He is sensitive, empathetic, and idealistic.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div id="Kirara" class="w3-container Karakter w3-gray w3-display-container" style="display:none">
+  <div class="w3-panel w3-orange w3-round-xlarge">
+  <center>
+  <h2>Kirara</h2>
+  </center>
+  </div>
+  <div class="w3-row">
+    <div class="w3-col m6">
+      <div class="w3-card-4" style="width:100%;height:100%">
+        <div class="w3-container w3-panel w3-card-4 w3-green">
+          <img src="Kirara_Card.jpg" width="100%" height="100%"> 
+        </div>  
+      </div>
+    </div>
+
+    <div class="w3-col m6 w3-display-right">
+      <div class="w3-card-4" style="height:100%">
+        <div class="w3-container w3-panel w3-card-4 w3-orange">
+          <center>
+            <h2>Descriptions</h2>
+          </center>
+          <div class="w3-card-4 w3-green" style="width:100%;height:100%">
+            <p>A nekomata who works as a courier at Komaniya Express.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div id="Nahida" class="w3-container Karakter w3-gray w3-display-container" style="display:none">
+  <div class="w3-panel w3-orange w3-round-xlarge">
+  <center>
+  <h2>Nahida</h2>
+  </center>
+  </div>
+  <div class="w3-row">
+    <div class="w3-col m6">
+      <div class="w3-card-4" style="width:100%;height:100%">
+        <div class="w3-container w3-panel w3-card-4 w3-green">
+          <img src="Nahida_Card.jpg" width="100%" height="100%"> 
+        </div>  
+      </div>
+    </div>
+
+    <div class="w3-col m6 w3-display-right">
+      <div class="w3-card-4" style="height:100%">
+        <div class="w3-container w3-panel w3-card-4 w3-orange">
+          <center>
+            <h2>Descriptions</h2>
+          </center>
+          <div class="w3-card-4 w3-green" style="width:100%;height:100%">
+            <p>The human vessel of the Dendro Archon, who is known as Lesser Lord Kusanali to her citizens.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div id="Tighnari" class="w3-container Karakter w3-gray w3-display-container" style="display:none">
+  <div class="w3-panel w3-orange w3-round-xlarge">
+  <center>
+  <h2>Tighnari</h2>
+  </center>
+  </div>
+  <div class="w3-row">
+    <div class="w3-col m6">
+      <div class="w3-card-4" style="width:100%;height:100%">
+        <div class="w3-container w3-panel w3-card-4 w3-green">
+          <img src="Tighnari_Card.jpg" width="100%" height="100%"> 
+        </div>  
+      </div>
+    </div>
+
+    <div class="w3-col m6 w3-display-right">
+      <div class="w3-card-4" style="height:100%">
+        <div class="w3-container w3-panel w3-card-4 w3-orange">
+          <center>
+            <h2>Descriptions</h2>
+          </center>
+          <div class="w3-card-4 w3-green" style="width:100%;height:100%">
+            <p>The stern, hardworking Chief Officer of the Avidya Forest Rangers.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div id="Yaoyao" class="w3-container Karakter w3-gray w3-display-container" style="display:none">
+  <div class="w3-panel w3-orange w3-round-xlarge">
+  <center>
+  <h2>Yaoyao</h2>
+  </center>
+  </div>
+  <div class="w3-row">
+    <div class="w3-col m6">
+      <div class="w3-card-4" style="width:100%;height:100%">
+        <div class="w3-container w3-panel w3-card-4 w3-green">
+          <img src="Yaoyao_Card.jpg" width="100%" height="100%"> 
+        </div>  
+      </div>
+    </div>
+
+    <div class="w3-col m6 w3-display-right">
+      <div class="w3-card-4" style="height:100%">
+        <div class="w3-container w3-panel w3-card-4 w3-orange">
+          <center>
+            <h2>Descriptions</h2>
+          </center>
+          <div class="w3-card-4 w3-green" style="width:100%;height:100%">
+            <p>A young adepti disciple and Ganyu's assistant.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div id="Albedo" class="w3-container Karakter w3-gray w3-display-container" style="display:none">
+  <div class="w3-panel w3-orange w3-round-xlarge">
+  <center>
+  <h2>Albedo</h2>
+  </center>
+  </div>
+  <div class="w3-row">
+    <div class="w3-col m6">
+      <div class="w3-card-4" style="width:100%;height:100%">
+        <div class="w3-container w3-panel w3-card-4 w3-brown">
+          <img src="Albedo_Card.jpg" width="100%" height="100%"> 
+        </div>  
+      </div>
+    </div>
+
+    <div class="w3-col m6 w3-display-right">
+      <div class="w3-card-4" style="height:100%">
+        <div class="w3-container w3-panel w3-card-4 w3-orange">
+          <center>
+            <h2>Descriptions</h2>
+          </center>
+          <div class="w3-card-4 w3-brown" style="width:100%;height:100%">
+            <p>The Chief Alchemist of the Knights of Favonius and the Captain of its Investigation Team. Albedo is not human, but rather a homunculus the legendary Khaenri'ahan alchemist Rhinedottir created.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div id="Itto" class="w3-container Karakter w3-gray w3-display-container" style="display:none">
+  <div class="w3-panel w3-orange w3-round-xlarge">
+  <center>
+  <h2>Arataki Itto</h2>
+  </center>
+  </div>
+  <div class="w3-row">
+    <div class="w3-col m6">
+      <div class="w3-card-4" style="width:100%;height:100%">
+        <div class="w3-container w3-panel w3-card-4 w3-brown">
+          <img src="Arataki_Itto_Card.jpg" width="100%" height="100%"> 
+        </div>  
+      </div>
+    </div>
+
+    <div class="w3-col m6 w3-display-right">
+      <div class="w3-card-4" style="height:100%">
+        <div class="w3-container w3-panel w3-card-4 w3-orange">
+          <center>
+            <h2>Descriptions</h2>
+          </center>
+          <div class="w3-card-4 w3-brown" style="width:100%;height:100%">
+            <p>A mischievous oni and leader of the Arataki Gang.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div id="Gorou" class="w3-container Karakter w3-gray w3-display-container" style="display:none">
+  <div class="w3-panel w3-orange w3-round-xlarge">
+  <center>
+  <h2>Gorou</h2>
+  </center>
+  </div>
+  <div class="w3-row">
+    <div class="w3-col m6">
+      <div class="w3-card-4" style="width:100%;height:100%">
+        <div class="w3-container w3-panel w3-card-4 w3-brown">
+          <img src="Gorou_Card.jpg" width="100%" height="100%"> 
+        </div>  
+      </div>
+    </div>
+
+    <div class="w3-col m6 w3-display-right">
+      <div class="w3-card-4" style="height:100%">
+        <div class="w3-container w3-panel w3-card-4 w3-orange">
+          <center>
+            <h2>Descriptions</h2>
+          </center>
+          <div class="w3-card-4 w3-brown" style="width:100%;height:100%">
+            <p>The general of the Watatsumi Army, a resistance group fighting to overturn some of Inazuma's policies.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div id="Navia" class="w3-container Karakter w3-gray w3-display-container" style="display:none">
+  <div class="w3-panel w3-orange w3-round-xlarge">
+  <center>
+  <h2>Navia</h2>
+  </center>
+  </div>
+  <div class="w3-row">
+    <div class="w3-col m6">
+      <div class="w3-card-4" style="width:100%;height:100%">
+        <div class="w3-container w3-panel w3-card-4 w3-brown">
+          <img src="Navia_Card.jpg" width="100%" height="100%"> 
+        </div>  
+      </div>
+    </div>
+
+    <div class="w3-col m6 w3-display-right">
+      <div class="w3-card-4" style="height:100%">
+        <div class="w3-container w3-panel w3-card-4 w3-orange">
+          <center>
+            <h2>Descriptions</h2>
+          </center>
+          <div class="w3-card-4 w3-brown" style="width:100%;height:100%">
+            <p>The president of the Spina di Rosula, an organization in Fontaine that extends aid and assistance to citizens that the nation's governing body does not cover.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div id="Ningguang" class="w3-container Karakter w3-gray w3-display-container" style="display:none">
+  <div class="w3-panel w3-orange w3-round-xlarge">
+  <center>
+  <h2>Ningguang</h2>
+  </center>
+  </div>
+  <div class="w3-row">
+    <div class="w3-col m6">
+      <div class="w3-card-4" style="width:100%;height:100%">
+        <div class="w3-container w3-panel w3-card-4 w3-brown">
+          <img src="Ningguang_Card.jpg" width="100%" height="100%"> 
+        </div>  
+      </div>
+    </div>
+
+    <div class="w3-col m6 w3-display-right">
+      <div class="w3-card-4" style="height:100%">
+        <div class="w3-container w3-panel w3-card-4 w3-orange">
+          <center>
+            <h2>Descriptions</h2>
+          </center>
+          <div class="w3-card-4 w3-brown" style="width:100%;height:100%">
+            <p>The owner of the Jade Chamber and a wealthy businesswoman who is also a member of the Liyue Qixing.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div id="Noelle" class="w3-container Karakter w3-gray w3-display-container" style="display:none">
+  <div class="w3-panel w3-orange w3-round-xlarge">
+  <center>
+  <h2>Noelle</h2>
+  </center>
+  </div>
+  <div class="w3-row">
+    <div class="w3-col m6">
+      <div class="w3-card-4" style="width:100%;height:100%">
+        <div class="w3-container w3-panel w3-card-4 w3-brown">
+          <img src="Noelle_Card.jpg" width="100%" height="100%"> 
+        </div>  
+      </div>
+    </div>
+
+    <div class="w3-col m6 w3-display-right">
+      <div class="w3-card-4" style="height:100%">
+        <div class="w3-container w3-panel w3-card-4 w3-orange">
+          <center>
+            <h2>Descriptions</h2>
+          </center>
+          <div class="w3-card-4 w3-brown" style="width:100%;height:100%">
+            <p>A maid working for the Knights of Favonius who dreams of someday being a knight.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div id="YunJin" class="w3-container Karakter w3-gray w3-display-container" style="display:none">
+  <div class="w3-panel w3-orange w3-round-xlarge">
+  <center>
+  <h2>Yun Jin</h2>
+  </center>
+  </div>
+  <div class="w3-row">
+    <div class="w3-col m6">
+      <div class="w3-card-4" style="width:100%;height:100%">
+        <div class="w3-container w3-panel w3-card-4 w3-brown">
+          <img src="Yun_Jin_Card.jpg" width="100%" height="100%"> 
+        </div>  
+      </div>
+    </div>
+
+    <div class="w3-col m6 w3-display-right">
+      <div class="w3-card-4" style="height:100%">
+        <div class="w3-container w3-panel w3-card-4 w3-orange">
+          <center>
+            <h2>Descriptions</h2>
+          </center>
+          <div class="w3-card-4 w3-brown" style="width:100%;height:100%">
+            <p>A popular opera singer of the Heyu Tea House.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div id="Zhongli" class="w3-container Karakter w3-gray w3-display-container" style="display:none">
+  <div class="w3-panel w3-orange w3-round-xlarge">
+  <center>
+  <h2>Zhongli/Morax</h2>
+  </center>
+  </div>
+  <div class="w3-row">
+    <div class="w3-col m6">
+      <div class="w3-card-4" style="width:100%;height:100%">
+        <div class="w3-container w3-panel w3-card-4 w3-brown">
+          <img src="Zhongli_Card.jpg" width="100%" height="100%"> 
+        </div>  
+      </div>
+    </div>
+
+    <div class="w3-col m6 w3-display-right">
+      <div class="w3-card-4" style="height:100%">
+        <div class="w3-container w3-panel w3-card-4 w3-orange">
+          <center>
+            <h2>Descriptions</h2>
+          </center>
+          <div class="w3-card-4 w3-brown" style="width:100%;height:100%">
+            <p>A consultant from Wangsheng Funeral Parlor and the human vessel of the Geo Archon, Morax.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div id="Rizki" class="w3-container Karakter w3-gray w3-display-container" style="display:none">
+  <div class="w3-panel w3-orange w3-round-xlarge">
+  <center>
+  <h2>Profile Saya</h2>
+  </center>
+  </div>
+   <div class="w3-card-4 w3-dark-grey">
+    <div class="w3-container w3-center">
+     <img src="Dream.jpeg" style="width:20%;height:60%">
+     <h5>Nama : Muhammad Rizki</h5>
+	 <h5>Kelas : IF 1</h5>
+	 <h5>NIM : 10123030</h5>
+    </div>
+   </div>
+</div>
+
+<div id="Genshin" class="w3-container Karakter w3-gray w3-display-container" style="display:none">
+  <div class="w3-panel w3-orange w3-round-xlarge">
+  <center>
+  <h2>About Genshin</h2>
+  </center>
+  </div>
+   <div class="w3-card-4 w3-dark-grey">
+
+    <div class="w3-container w3-center">
+
+     <img src="genshin_impact_banner.jpg" style="width:100%;height:100%">
+     <h5>Genshin Impact is an action role-playing video game developed by miHoYo, a Chinese game development company. The game was initially released on September 28, 2020, for various platforms, including Microsoft Windows, PlayStation 4, iOS, and Android. Genshin Impact is also available for PlayStation 5.
+
+Here are some key points about Genshin Impact:
+
+Game Genre: Genshin Impact is an action role-playing game with adventure elements. The game combines open-world gameplay with real-time battles and character management.
+
+Open World: The game is set in the open-world fantasy realm of Teyvat. Teyvat consists of seven elements representing various gods and elemental powers. Players can explore different regions, complete tasks, and uncover the mysteries of the world.
+
+Characters and Elements: Genshin Impact offers a variety of playable characters, each with different elements and weapons. The elemental types in the game include Anemo (Wind), Geo (Earth), Electro (Electric), Dendro (Nature), Hydro (Water), Pyro (Fire), and Cryo (Ice). Players can build teams with different characters to maximize their strengths and abilities.
+
+Battle System: Battles in Genshin Impact are real-time and blend action elements with strategy. Players can switch their characters directly during battles to exploit enemy weaknesses and employ team strategies.
+
+Gacha System: Genshin Impact uses a gacha system to obtain new characters and weapons. Players can use in-game currency or premium currency to make random pulls for rare characters and items.
+
+Multiplatform: One notable feature of Genshin Impact is its ability to be played across various platforms. Players can continue their adventure on PC, consoles, and mobile devices while retaining their game progress.
+
+Genshin Impact has gained significant popularity among players due to its stunning graphics, expansive open world, and engaging gameplay. The game continues to receive content updates to keep players invested in the experience.</h5>
+	 
+  
+    </div>
+   </div>
+</div>
+
+</body>
 </html>
+
+<script>
+function Genshin(NamaKarakter) {
+ var i;
+ var x = document.getElementsByClassName("Karakter");
+ for (i = 0; i < x.length; i++) {
+  x[i].style.display = "none";
+ }
+ document.getElementById(NamaKarakter).style.display = "block";
+}
+
+
+
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
